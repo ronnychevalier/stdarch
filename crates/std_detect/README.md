@@ -1,4 +1,4 @@
-`std::detect` - Rust's standard library run-time CPU feature detection
+`notstd::detect` - fork of Rust's standard library run-time CPU feature detection
 =======
 
 The private `std::detect` module implements run-time feature detection in Rust's

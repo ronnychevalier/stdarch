@@ -1,12 +1,17 @@
+# `notstd_detect` is a fork of std_detect (https://github.com/rust-lang/stdarch).
+# There are no changes in the code, it has just been uploaded to crates.io to be available and up-to-date.
+# The maintainers do not want to update the 4 years old version available on crates.io,
+# since it is meant to be available with `std::detect`.
+# Some features, however, are not available through `std::detect`.
 [package]
-name = "std_detect"
-version = "0.1.5"
+name = "notstd_detect"
+version = "0.4.0"
 authors = [
     "Alex Crichton <alex@alexcrichton.com>",
     "Andrew Gallant <jamslam@gmail.com>",
     "Gonzalo Brito Gadeschi <gonzalobg88@gmail.com>",
 ]
-description = "`std::detect` - Rust's standard library run-time CPU feature detection."
+description = "Fork of std_detect - Rust's standard library run-time CPU feature detection."
 homepage = "https://github.com/rust-lang/stdarch"
 repository = "https://github.com/rust-lang/stdarch"
 readme = "README.md"

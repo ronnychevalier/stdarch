@@ -1,18 +1,9 @@
-stdarch - Rust's standard library SIMD components
-=======
+# `notstd_detect`
 
-[![Actions Status](https://github.com/rust-lang/stdarch/workflows/CI/badge.svg)](https://github.com/rust-lang/stdarch/actions)
+This repository contains a fork of [`std_detect`](crates/std_detect/README.md) - Rust's
+  standard library run-time CPU feature detection - called `notstd_detect`.
 
-
-# Crates
-
-This repository contains two main crates:
-
-* [`core_arch`](crates/core_arch/README.md) implements `core::arch` - Rust's
-  core library architecture-specific intrinsics, and
-  
-* [`std_detect`](crates/std_detect/README.md) implements `std::detect` - Rust's
-  standard library run-time CPU feature detection.
-
-The `std::simd` component now lives in the
-[`packed_simd_2`](https://github.com/rust-lang/packed_simd) crate.
+There are no changes in the code, it has just been uploaded to crates.io to be available and up-to-date.
+The maintainers do not want to update the 4 years old version available on crates.io,
+since it is meant to be available with `std::detect`.
+Some features, however, are not available through `std::detect`.

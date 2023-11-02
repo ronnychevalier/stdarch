@@ -1,4 +1,4 @@
-//! Run-time feature detection for the Rust standard library.
+//! `notstd_detect` is a fork of `std_detect`: the run-time feature detection for the Rust standard library.
 //!
 //! To detect whether a feature is enabled in the system running the binary
 //! use one of the appropriate macro for the target:
